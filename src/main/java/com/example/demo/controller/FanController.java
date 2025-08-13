@@ -45,7 +45,7 @@ public class FanController {
     }
 
 
-    @GetMapping("/fanReport")
+    @GetMapping("/fan/fanReport")
     public void fanReport() {
         fanService.fanReport();
     }
